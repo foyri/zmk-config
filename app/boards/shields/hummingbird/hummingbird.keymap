@@ -103,6 +103,12 @@
             bindings = <&kp GRAVE>;
             layers = <0 1 2 3 4 5>;
         };
+         combo_space {
+            timeout-ms = <40>;
+            key-positions = <23 24>;
+            bindings = <&kp SPACE>;
+            layers = <0 1 2 3 4 5>;
+        };
     };
     
         keymap {
