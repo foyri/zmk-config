@@ -124,7 +124,7 @@
         combo_LG-shift-M {
             timeout-ms = <60>;
             key-positions = <1 2 3>;
-            bindings = <&kp LGS(M)>;
+            bindings = <&kp LG(LS(M))>;
             layers = <0 1 2 3 4 5>;
         };
     };
