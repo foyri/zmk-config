@@ -109,6 +109,18 @@
             bindings = <&kp SPACE>;
             layers = <0 1 2 3 4 5>;
         };
+        combo_LCF {
+            timeout-ms = <60>;
+            key-positions = <11 12 13>;
+            bindings = <&kp LC(F)>;
+            layers = <0 1 2 3 4 5>;
+        };
+        combo_LCJ {
+            timeout-ms = <60>;
+            key-positions = <20 21 22>;
+            bindings = <&kp LC(J)>;
+            layers = <0 1 2 3 4 5>;
+        };
     };
     
         keymap {
